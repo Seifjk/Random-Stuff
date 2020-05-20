@@ -5,7 +5,7 @@ import pandas as pd
 mydb = mysql.connector.connect(host='localhost',
                                database='feldbuslogging',
                                user='root',
-                               password='Zangetsu10')
+                               password='++++++')
 
 
 def readfromtable(tablename, col1, col2, startId, endId):
